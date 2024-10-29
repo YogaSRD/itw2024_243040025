@@ -19,7 +19,7 @@ h3 a{
     color: rgba(240, 221, 221, 0.923)
 }
 #p1 {
-    color: rgb(251, 186, 163);
+    color: orange;
 }
 h3 a:hover{
     color: red;

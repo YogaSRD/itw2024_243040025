@@ -1,4 +1,8 @@
-body { background-image: url(background.png);
+body { 
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: georgia;
     
 }
@@ -13,14 +17,14 @@ h4 {
     font-style: italic;
 }
 p {text-align: center;
-
+    font-family: sans-serif;
 
 }
 h3 a{
     color: rgba(240, 221, 221, 0.923)
 }
 #p1 {
-    color: coral;
+    color: orange;
 }
 h3 a:hover{
     color: red;
