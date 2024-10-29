@@ -1,8 +1,8 @@
 body { 
     background-image: url(background.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-size: contain;
+    background-position:center;
+    background-attachment: fixed; 
     font-family: georgia;
     
 }
@@ -21,7 +21,7 @@ p {text-align: center;
 
 }
 h3 a{
-    color: rgba(240, 221, 221, 0.923)
+    color: rgba(208, 29, 29, 0.923)
 }
 #p1 {
     color: orange;
@@ -30,6 +30,7 @@ h3 a:hover{
     color: red;
 }
 #p2 a:hover{
+    background-color: blue;
     color: white;
 }
 h3 {
