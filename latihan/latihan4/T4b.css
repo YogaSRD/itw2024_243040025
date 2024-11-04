@@ -53,14 +53,16 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(img/geometric-png.png);
+    background-image: url(img/bacground.png);
     color: 333;
 }
 
 .container {
     width: 800px;
-    margin: auto;
-    background-color: #fff;
+    background-color: grey;
+    color: #eaeaea;
+    margin: auto
+    
 }
 
 .header {
@@ -80,21 +82,21 @@ body {
 }
 .header a {
     text-decoration: none;
-    color: salmon;
+    color: lightskyblue;
     padding: 3pix;
 }
 
 .header a:hover {
-    background-color: lightskyblue;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
 .hero {
     height: 280px;
-    background-image: url(img/hero.png.jpg);
+    background-image: url(img/pubg.png);
     background-size: cover;
     background-position: 0 -100px;
     border-bottom: 5px solid lightskyblue;
-    border-top: 5px solid salmon;
+    border-top: 5px solid yellow;
     
 }
 .content {
@@ -112,7 +114,7 @@ body {
 }
 
 .content .penulis a {
-    color: salmon;
+    color: lightskyblue;
     text-decoration: none;
 }
 
@@ -123,8 +125,8 @@ body {
 }
 
 .footer {
-    background-color: #333;
-    padding: 10px;
+    background-color: #989a11;
+    padding: 5px;
 }
 
 .footer .copy {
@@ -133,3 +135,23 @@ body {
     font-size: 12px;
 }
 
+.footer .sumber {
+    color: #eaeaea;
+    text-align: left;
+    font-size: 12px;
+}
+
+.content .Tips {
+    height: 280px;
+    background-image: url(img/strategy.png);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid yellow;
+}
+ .footer a {
+    text-decoration: none;
+    color: lightskyblue;
+    font-size: small;
+
+ }
